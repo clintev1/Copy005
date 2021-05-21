@@ -8,7 +8,7 @@ function setup() {
 
 function draw() {
     image(video, 0, 0, 300, 300);
-    classifier.clasify(video, gotResult);
+    classifier.classify(video, gotResult);
 }
 
 function modelLoaded() {
